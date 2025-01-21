@@ -21,7 +21,7 @@ const MainPage = () => {
       const { scrollTop, scrollHeight, clientHeight } = container;
 
       if (
-        scrollHeight - scrollTop - clientHeight < 200 &&
+        scrollHeight - scrollTop - clientHeight < 300 &&
         !fetchingMore &&
         !loading
       ) {
