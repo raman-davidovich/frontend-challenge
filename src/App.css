@@ -6,7 +6,8 @@
 
 #root {
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  background-color: #ffffff;
 }
 
 #menu {
@@ -27,4 +28,17 @@
 #controls > a.active {
   color: rgba(255, 255, 255, 1);
   background-color: #1e88e5;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 31px;
+  padding: 48px 62px;
+}
+
+.image {
+  width: 225px;
+  height: 225px;
+  object-fit: cover;
 }
